@@ -92,7 +92,7 @@ module FriendlyId::SluggableInstanceMethods
       slug_attributes = {:name => slug_text}
       if friendly_id_options[:scope]
         scope = send(friendly_id_options[:scope])
-        slug_attributes[:scope] = scope.respond_to?(:to_param) ? scope.to_param : scope.to_s
+        slug_attributes[:scope] = scope.respond_to?(:to_param) ? scope.to_param.to_s : scope.to_s
       end
       # If we're renaming back to a previously used friendly_id, delete the
       # slug so that we can recycle the name without having to use a sequence.
