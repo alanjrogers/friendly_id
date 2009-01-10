@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{friendly-id}
   s.rubygems_version = %q{1.3.1}
-  %s.signing_key = %q{/Users/norman/.gem/gem-private_key.pem}
+  #s.signing_key = %q{/Users/norman/.gem/gem-private_key.pem}
   s.summary = %q{A comprehensive slugging and pretty-URL plugin for Ruby on Rails.}
   s.test_files = ["test/non_slugged_test.rb", "test/scoped_model_test.rb", "test/slug_test.rb", "test/sluggable_test.rb"]
 
