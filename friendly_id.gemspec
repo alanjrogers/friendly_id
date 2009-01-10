@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name = %q{friendly_id}
-  s.version = "2.0.0"
+  s.version = "2.0.0b"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  #s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Norman Clarke", "Adrian Mugnolo", "Emilio Tagua"]
-  s.cert_chain = ["/Users/norman/.gem/gem-public_cert.pem"]
-  s.date = %q{2008-12-30}
+  #s.cert_chain = ["/Users/norman/.gem/gem-public_cert.pem"]
+  s.date = %q{2009-01-10}
   s.description = %q{A comprehensive slugging and pretty-URL plugin for Ruby on Rails.}
   s.email = ["norman@randomba.org", "adrian@randomba.org", "miloops@gmail.com"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt"]
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{friendly-id}
   s.rubygems_version = %q{1.3.1}
-  s.signing_key = %q{/Users/norman/.gem/gem-private_key.pem}
+  %s.signing_key = %q{/Users/norman/.gem/gem-private_key.pem}
   s.summary = %q{A comprehensive slugging and pretty-URL plugin for Ruby on Rails.}
   s.test_files = ["test/non_slugged_test.rb", "test/scoped_model_test.rb", "test/slug_test.rb", "test/sluggable_test.rb"]
 
